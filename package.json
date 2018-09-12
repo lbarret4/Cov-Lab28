@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lbarret4/Cov-Lab28#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3"
   }
 }
