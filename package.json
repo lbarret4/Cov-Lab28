@@ -1,0 +1,22 @@
+{
+  "name": "cov-lab28",
+  "version": "1.0.0",
+  "description": "1. Create a new project using `npm init`.\r 2. Install express and save it to your package.json file using `--save`.\r 3. Create an express server that responds to the root get request ('`/`') with` \"Hello from the web server side...\"`.\r     - Listen on port 3000.\r 4. Use `express.static` to serve files from a folder named `public` in the root of your project.\r     - Create an `index.html` file.\r     - Create a `styles.css` file in a `css` directory in `public`.\r     - Create an `app.js` file in a `js` directory in `public`.\r 5. Create your own middleware using `app.use` that `console.log`s every `req.url` and passes flow to the `next` function\r ## ADVANCED\r 1. Add Bootstrap to your `index.html`.\r 2. Create a form that posts to a route on your express server.\r 3. Write the values from the form post to a json file on your server.\r     - Remember to set the action of the form to your route.\r     - Change the method of the form to `POST`.\r 4. Create a route `/formsubmissions` that reads the file and responds with the results.",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbarret4/Cov-Lab28.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbarret4/Cov-Lab28/issues"
+  },
+  "homepage": "https://github.com/lbarret4/Cov-Lab28#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
