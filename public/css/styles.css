@@ -1,0 +1,9 @@
+body {
+    background: lightgray;   
+    text-decoration:red dashed underline overline;
+}
+h1 {
+    color:greenyellow;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
