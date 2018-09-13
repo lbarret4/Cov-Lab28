@@ -1,0 +1,1 @@
+alert('Welcome from client side of server!')
